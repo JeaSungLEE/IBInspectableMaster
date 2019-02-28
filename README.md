@@ -1,3 +1,3 @@
-# IBDesignableMaster
+# IBInspectableMaster
 
-A collection of IBdesignables for developing with only storyboards.
+A collection of IBInspectables for developing with only storyboards.
