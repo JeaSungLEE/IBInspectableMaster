@@ -16,11 +16,11 @@ extension UINavigationBar {
             guard let obj = objc_getAssociatedObject(self, &flatAssociatedObjectKey) as? NSNumber else {
                 return false
             }
-            return obj.boolValue;
+            return obj.boolValue
         }
 
         set {
-            if (newValue) {
+            if newValue {
                 let void = UIImage()
                 setBackgroundImage(void, for: .any, barMetrics: .default)
                 shadowImage = void
